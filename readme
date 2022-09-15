@@ -36,8 +36,8 @@ git remote -v
 deployment
 
 mailid= jayeshvadje@gmail.com
-api key=<>
-app name= ml-demo123
+api_key=<>
+app_name= ml-demo123
 
 
 docker file create
