@@ -1,0 +1,32 @@
+Creating virtual  enviroment
+using this command in terminal
+conda create -p venv python==3.8 -y
+
+after creating virtual  enviroment we have to activate it using this command
+conda activate venv/
+
+create requirements file
+
+to run requirements file use
+pip install -r requirements.txt
+
+to add the file to the git which we modified (in terminal) we use
+git add file name
+
+and to cheak the status of the file whether we add the file or not  (in terminal) we use
+git status
+
+Note:to ignore file and folder from git we can write name of file /folder in .gitignore file
+
+to cheak all version maintained by git
+git log
+
+
+to create version/commit all changes by git
+git commit -m "message"
+
+to send changes to git hub
+git push origin main
+
+to cheak remote url
+git remote -v
