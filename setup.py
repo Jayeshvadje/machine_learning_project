@@ -15,7 +15,7 @@ def get_requirements_list()->List[str]:
 
 
     with open(REQUIREMNTS_FILE_NAME) as requirements_file:
-        return requirements_file.readlines()
+        return requirements_file.readlines().remove("-e .")
 
 
 
