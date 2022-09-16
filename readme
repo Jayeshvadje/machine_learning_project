@@ -33,7 +33,7 @@ git remote -v
 
 
 
-deployment
+deployment.
 
 mailid= jayeshvadje@gmail.com
 api_key=<>
@@ -61,5 +61,8 @@ to cheak running containers in doker
 
 to stop docker container
 docker stop( container_id)
+
+
+python setup.py install
 
 
